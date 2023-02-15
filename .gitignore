@@ -67,4 +67,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 
+# tailwind
+# ignore every tailwind file inside every app of the app folder
+# it usually lives inside the src/styles directory
+/app/*/src/styles/tailwind.css
 
